@@ -4,6 +4,7 @@ export function EditAvatar(): React.JSX.Element {
             <label className='popup__field'>
                 <input
                     id="avatar"
+                    className='popup__input popup__input_type_avatar'
                     name="avatar"
                     placeholder="Enlace a la imagen"
                     required

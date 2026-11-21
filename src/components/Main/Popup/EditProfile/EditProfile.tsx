@@ -4,6 +4,7 @@ export function EditProfile(): React.JSX.Element {
             <label className='popup__field'>
                 <input
                     id="name"
+                    className='popup__input popup__input_type_name'
                     name="name"
                     placeholder="Nombre"
                     type="text"
@@ -16,6 +17,7 @@ export function EditProfile(): React.JSX.Element {
             <label className='popup__field'>
                 <input
                     id="description"
+                    className='popup__input popup__input_type_description'
                     name="description"
                     placeholder="Acerca de mí"
                     type="text"
