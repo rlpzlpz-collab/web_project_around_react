@@ -27,65 +27,65 @@ Aplicación web que muestra el perfil de un usuario y una galería de tarjetas c
 
 ## Estructura del proyecto
 
+```
 web_project_around_react/
-├── node_modules/
 ├── public/
-│ ├── blocks/
-│ │ ├── card.css
-│ │ ├── cards.css
-│ │ ├── content.css
-│ │ ├── footer.css
-│ │ ├── header.css
-│ │ ├── page.css
-│ │ ├── popup.css
-│ │ └── profile.css
-│ ├── images/
-│ │ ├── add-icon.svg
-│ │ ├── close.svg
-│ │ ├── delete-icon.svg
-│ │ ├── edit-icon.svg
-│ │ ├── favicon.svg
-│ │ ├── like-active.svg
-│ │ ├── like-inactive.svg
-│ │ └── placeholder.jpg
-│ └── vendor/
-│ │ ├── fonts/
-│ │ │ └── Inter-Black.woff2
-│ │ │ └── Inter-Medium.woff2
-│ │ │ └── Inter-Regular.woff2
-│ │ ├── fonts.css
-│ │ └── normalize.css
+│   ├── blocks/
+│   │   ├── card.css
+│   │   ├── cards.css
+│   │   ├── content.css
+│   │   ├── footer.css
+│   │   ├── header.css
+│   │   ├── page.css
+│   │   ├── popup.css
+│   │   └── profile.css
+│   ├── images/
+│   │   ├── add-icon.svg
+│   │   ├── close.svg
+│   │   ├── delete-icon.svg
+│   │   ├── edit-icon.svg
+│   │   ├── favicon.svg
+│   │   ├── like-active.svg
+│   │   ├── like-inactive.svg
+│   │   └── placeholder.jpg
+│   └── vendor/
+│       ├── fonts/
+│       │   ├── Inter-Black.woff2
+│       │   ├── Inter-Medium.woff2
+│       │   └── Inter-Regular.woff2
+│       ├── fonts.css
+│       └── normalize.css
 ├── src/
-│ ├── assets/
-│ │ ├── avatar.jpg
-│ │ ├── hero.png
-│ │ ├── logo.svg
-│ │ ├── react.svg
-│ │ └── vite.svg
-│ ├── components/
-│ │ ├── App.tsx
-│ │ ├── Footer/
-│ │ │ └── Footer.tsx
-│ │ ├── Header/
-│ │ │ └── Header.tsx
-│ │ └── Main/
-│ │ ├── Main.tsx
-│ │ ├── Card/
-│ │ │ └── Card.tsx
-│ │ └── Popup/
-│ │ ├── Popup.tsx
-│ │ ├── EditAvatar/
-│ │ │ └── EditAvatar.tsx
-│ │ ├── EditProfile/
-│ │ │ └── EditProfile.tsx
-│ │ ├── ImagePopup/
-│ │ │ └── ImagePopup.tsx
-│ │ └── NewCard/
-│ │ └── NewCard.tsx
-│ ├── types/
-│ │ └── types.ts
-│ ├── index.css
-│ └── main.tsx
+│   ├── assets/
+│   │   ├── avatar.jpg
+│   │   ├── hero.png
+│   │   ├── logo.svg
+│   │   ├── react.svg
+│   │   └── vite.svg
+│   ├── components/
+│   │   ├── App.tsx
+│   │   ├── Footer/
+│   │   │   └── Footer.tsx
+│   │   ├── Header/
+│   │   │   └── Header.tsx
+│   │   └── Main/
+│   │       ├── Main.tsx
+│   │       ├── Card/
+│   │       │   └── Card.tsx
+│   │       └── Popup/
+│   │           ├── Popup.tsx
+│   │           ├── EditAvatar/
+│   │           │   └── EditAvatar.tsx
+│   │           ├── EditProfile/
+│   │           │   └── EditProfile.tsx
+│   │           ├── ImagePopup/
+│   │           │   └── ImagePopup.tsx
+│   │           └── NewCard/
+│   │               └── NewCard.tsx
+│   ├── types/
+│   │   └── types.ts
+│   ├── index.css
+│   └── main.tsx
 ├── .gitignore
 ├── eslint.config.js
 ├── index.html
@@ -94,8 +94,7 @@ web_project_around_react/
 ├── tsconfig.app.json
 ├── tsconfig.node.json
 └── vite.config.ts
-
-````
+```
 
 ## Instalación y uso
 
@@ -103,7 +102,7 @@ web_project_around_react/
 
    ```bash
    git clone https://github.com/rlpzlpz-collab/web_project_around_react.git
-````
+   ```
 
 2. Entra a la carpeta e instala las dependencias:
 
